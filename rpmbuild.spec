@@ -14,10 +14,11 @@
 
 Name:           openstack-ansible-galera_server
 Version:        17.0.2
-Release:        1%{?dist}.1
+Release:        1%{?dist}.2
 License:        %{_platform_licence} and ASL 2.0
 Source0:        https://github.com/openstack/%{name}/archive/%{version}.tar.gz
 Patch0:         0001-initial.patch
+Patch1:         0002-mariadbrestart.patch
 Vendor:         %{_platform_vendor} and OpenStack modified
 URL:            https://github.com/openstack/openstack-ansible-galera_server
 BuildArch:      noarch

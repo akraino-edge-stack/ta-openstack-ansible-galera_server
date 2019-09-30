@@ -1,0 +1,11 @@
+diff --git a/templates/systemd.restart.conf.j2 b/templates/systemd.restart.conf.j2
+index 8ae392b..9ee4012 100644
+--- a/templates/systemd.restart.conf.j2
++++ b/templates/systemd.restart.conf.j2
+@@ -5,5 +5,5 @@
+ # on-abort is the most conservative one since that should capture unexpected
+ # failures but also exclude failures due to bad configurations. This is
+ # currently the upstream option as well
+-Restart=on-abort
++Restart=always
+ RestartSec=5s

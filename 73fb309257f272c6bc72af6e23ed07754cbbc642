@@ -1,0 +1,7 @@
+Verified+1: Akraino Jobbuilder <collab-it+akraino-jobbuilder@linuxfoundation.org>
+Code-Review+2: Levente Kálé <levente.kale@nokia.com>
+Submitted-by: Levente Kálé <levente.kale@nokia.com>
+Submitted-at: Tue, 01 Oct 2019 14:03:43 +0000
+Reviewed-on: https://gerrit.akraino.org/r/c/ta/openstack-ansible-galera_server/+/1680
+Project: ta/openstack-ansible-galera_server
+Branch: refs/heads/master
